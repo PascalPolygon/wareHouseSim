@@ -1,0 +1,23 @@
+6Rivers-notes
+
+Need to update webpack-cli to version 3.1.1 for in package.json otherwise you get: TypeError: Cannot read property 'properties' of undefined
+
+TODO:
+- Command input is wacky, it's slow redundant and annoying: Implement arrow-key input
+- smooth rendering of move
+- How is the dispace calc done?
+
+Installed file-loader to load images
+edited webpack.config.js and added file-loader for test .png
+use require syntax in .ejs to load image, can't use use standard html
+
+cool effect when you rotate canvas continusouly
+
+Creating pixi simulation
+set initial rotation to pi/2 for kinematics to compute correctly
+tried to get robot from setup callback function, problem with asynchronous callback inside synchronous function, had to architecct everything to work starting
+at callback
+
+Checking that box and crate are not overlapping: Algorithm to avoid nested loop and O(n^2) time complexity
+
+Rename spriteHit parameter crate to more generic as it is used more than once, 

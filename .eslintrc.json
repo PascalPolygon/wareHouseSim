@@ -1,0 +1,17 @@
+{
+	"extends": [
+		"6river"
+	],
+	"env": {
+		"browser": true
+	},
+	"overrides": [{
+		"files": ["lib/**/*.js"],
+		"parserOptions": {
+				"sourceType": "module"
+		},
+		"rules": {
+			"no-console": "off"
+		}
+	}]
+}

@@ -1,0 +1,8 @@
+{
+	"extends": [
+		"6river/mocha"
+	],
+	"parserOptions": {
+		"sourceType": "module"
+	}
+}
