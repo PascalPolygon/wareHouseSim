@@ -5,8 +5,8 @@
   "description": "Robot Simulator",
   "main": "index.js",
   "scripts": {
-    "heroku-postbuild": "webpack -p --config ./webpack.prod.config.js --progress"
-    "start": "node ./bin/www",
+    "build": "webpack --mode production --config ./webpack.prod.config.js"
+    "start": "webpack-dev-server --watch --progress --port 8000 --host 0.0.0.0 --disable-host-check",
     "test": "jest"
   },
   "author": "jbcpollak <josh@6river.com> (http://6river.com/)",
